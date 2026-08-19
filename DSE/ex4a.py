@@ -7,7 +7,7 @@ x = np.linspace(0, 5, 50)
 y = np.linspace(0, 5, 40)
 X, Y = np.meshgrid(x, y)
 Z = f(X, Y)
-plt.contour(X, Y, Z, colors='black');       
+# plt.contour(X, Y, Z, colors='black');       
 # plt.contour(X, Y, Z, 20, cmap='RdGy');
 
 # plt.contourf(X, Y, Z, 20, cmap='RdGy')
